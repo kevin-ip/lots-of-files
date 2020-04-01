@@ -1,7 +1,7 @@
 # lots-of-files
 Create lots of random files
 
-## build
+## Build
 require java 8
 
 ```
@@ -13,11 +13,11 @@ require java 8
 Once build is completed, see help menu
 `cd build/libs; java -jar lots-of-files-all.jar -h`
 
-### Create files
+### Create
 #### Help
 `java -jar lots-of-files-all.jar create -h`
 
-#### create files
+#### Create files
 `java -jar lots-of-files-all.jar create --number-of-files=15 $PATH`
 
 e.g.
