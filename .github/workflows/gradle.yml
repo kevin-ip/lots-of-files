@@ -24,3 +24,8 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+    - name: Upload build result
+      uses: actions/upload-artifact@v1
+      with:
+        name: lots-of-files-uber.zip
+        path: build/distributions/lots-of-files-shadow.zip
