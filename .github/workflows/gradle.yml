@@ -27,5 +27,5 @@ jobs:
     - name: Upload build result
       uses: actions/upload-artifact@v1
       with:
-        name: lots-of-files-uber.zip
+        name: lots-of-files-uber
         path: build/distributions/lots-of-files-shadow.zip
